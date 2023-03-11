@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.zwh</groupId>
+    <artifactId>gulimailZwh</artifactId>
+    <version>0.0.2-SNAPSHOT</version>
+    <name>gulimailZwh</name>
+    <description>聚合服务</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>guli-coupon</module>
+        <module>guli-member</module>
+        <module>guli-order</module>
+        <module>guli-product</module>
+        <module>guli-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>gulimail-common</module>
+        <module>guli-gateway</module>
+        <module>guli-third-party</module>
+        <module>guli-search</module>
+        <module>auth-server</module>
+        <module>guli-cart</module>
+        <module>guli-secKill</module>
+    </modules>
+
+</project>
